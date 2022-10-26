@@ -1,0 +1,31 @@
+@keyframes mouse-over{
+    0%{
+        
+    }
+
+    100%{
+        color: #00BFFF;
+        cursor: pointer;
+        
+       
+    }
+}
+.menu-header:hover{
+    animation: mouse-over 0.4s forwards;
+    
+}
+@keyframes btn-over{
+    0%{
+        
+    }
+
+    100%{
+        
+        box-shadow: 1px -1px 6px 1px #17b6eb ;
+    }
+}
+.started:hover{
+    animation: btn-over 0.1s forwards;
+    
+    cursor: pointer;
+}
